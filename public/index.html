@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tron B. - test task for DevIT</title>
+  </head>
+  <body>
+    <input type="number" id="concurrencyInput" required min="0" max="100" />
+    <button id="start">Start</button>
+    <h6 id="errorMessage" style="margin: 5px 0 0 0; color: tomato"></h6>
+    <div
+      style="
+        height: 150px;
+        width: 100px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        overflow-y: scroll;
+      "
+    >
+      <ol id="results"></ol>
+    </div>
+
+    <script type="module" src="client.js"></script>
+  </body>
+</html>
